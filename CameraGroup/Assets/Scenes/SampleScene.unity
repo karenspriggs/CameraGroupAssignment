@@ -374,7 +374,6 @@ GameObject:
   m_Component:
   - component: {fileID: 395595066}
   - component: {fileID: 395595065}
-  - component: {fileID: 395595064}
   - component: {fileID: 395595067}
   m_Layer: 0
   m_Name: SplitScreenUpper
@@ -383,14 +382,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &395595064
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 395595063}
-  m_Enabled: 1
 --- !u!20 &395595065
 Camera:
   m_ObjectHideFlags: 0
@@ -1534,7 +1525,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1190079506}
   - component: {fileID: 1190079505}
-  - component: {fileID: 1190079504}
   - component: {fileID: 1190079507}
   m_Layer: 0
   m_Name: SplitScreenLower
@@ -1543,14 +1533,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &1190079504
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1190079503}
-  m_Enabled: 1
 --- !u!20 &1190079505
 Camera:
   m_ObjectHideFlags: 0
@@ -1630,7 +1612,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1239788977}
   - component: {fileID: 1239788976}
-  - component: {fileID: 1239788975}
   - component: {fileID: 1239788978}
   m_Layer: 0
   m_Name: PictureinPic
@@ -1639,14 +1620,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &1239788975
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1239788974}
-  m_Enabled: 1
 --- !u!20 &1239788976
 Camera:
   m_ObjectHideFlags: 0
@@ -2251,7 +2224,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1837738112}
   - component: {fileID: 1837738111}
-  - component: {fileID: 1837738110}
   - component: {fileID: 1837738113}
   m_Layer: 0
   m_Name: SideViewCamera
@@ -2260,14 +2232,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &1837738110
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1837738109}
-  m_Enabled: 1
 --- !u!20 &1837738111
 Camera:
   m_ObjectHideFlags: 0
