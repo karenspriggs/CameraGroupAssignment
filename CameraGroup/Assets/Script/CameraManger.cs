@@ -35,6 +35,7 @@ public class CameraManger : MonoBehaviour
 
     public void OnSliderValueChanged(float value)
     {
+        //
         if (mainCamera.enabled) mainCamera.nearClipPlane = value; 
         else if (SideViewCamera.enabled) SideViewCamera.nearClipPlane = value; 
         else if (SplitScreenLower.enabled) SplitScreenLower.nearClipPlane = value;
