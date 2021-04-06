@@ -6,6 +6,16 @@ using UnityEngine.UI;
 public class CameraManger : MonoBehaviour
 {
     // Start is called before the first frame update
+
+
+    public Camera mainCamera; 
+    public Camera pictureInPictureCam; 
+    public Camera SideViewCamera; 
+    public Camera SplitScreenUpper;
+    public Camera SplitScreenLower;
+
+
+
     void Start()
     {
         
