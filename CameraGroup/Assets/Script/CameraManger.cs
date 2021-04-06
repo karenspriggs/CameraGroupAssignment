@@ -24,7 +24,12 @@ public class CameraManger : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.mouseScrollDelta.y != 0)
+        { Vector3 diff = Vector3.forward * Input.mouseScrollDelta.y;
+            if (mainCamera.enabled) mainCamera.transform.Translate(diff);
+            else if (SideViewCamera.enabled) SideViewCamera.transform.Translate(diff);
+            else if (SplitScreenLower.enabled) SplitScreenLower.transform.Translate(diff); 
+        }
     }
 
 
